@@ -85,5 +85,52 @@ hr {
 
 .elzero {
         clip-path: circle();
-        width: 35px;
+        width: 42.5px;
+}
+
+.he {
+        display: flex;
+
+}
+
+.videos {
+        width: calc(100% - 250px);
+        background-color: rgb(242, 242, 242);
+        height: 100vh;
+}
+
+.column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.video {
+        text-decoration: none;
+        border: none;
+        overflow: hidden;
+        padding: 20px;
+        height: 250px;
+        width: 300px;
+}
+
+.wk {
+        width: 300px;
+        border-radius: 5px;
+}
+
+.vContent {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        border: none;
+}
+
+h4,
+a,
+h6 {
+
+        text-decoration: none;
+        border: none;
 }
